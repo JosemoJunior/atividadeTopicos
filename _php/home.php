@@ -32,7 +32,7 @@
          <input class="input" type="text" name="nome" id="nome" size="30" 
         maxlength="30"></p> 
 
-        <p class="texto">EndereÁo :<br>
+        <p class="texto">Endere√ßo :<br>
          <input class="input" type="text" name="endereco" id="endereco" size="10" 
         maxlength="30"></p> 
 
@@ -40,7 +40,7 @@
          <input type="radio" name="sexo" value="Masculino">Masculino 
          <input type="radio" name="sexo" value="Feminino">Feminino</p>
 
-        <p class="texto">Faixa et·ria:<br>
+        <p class="texto">Faixa et√°ria:<br>
             <input type="checkbox" name="faixa" id="faixa" 
             value="adolescente">Adolescente 
              <input type="checkbox" name="faixa" id="faixa" 
@@ -53,13 +53,14 @@
              <option value="vazio"> </option> 
              <option value="Aracaju">Aracaju, SE</option> 
              <option value="BeloHorizonte">Belo Horizonte, MG</option> 
-             <option value="BrasÌ≠lia">BrasÌ≠lia, DF</option> 
-             <option value="Cuiab·">Cuiab·, MT</option> 
-             <option value="MaceiÛ">MaceiÛ, AL</option> 
+             <option value="Bras√≠lia">Bras√≠lia, DF</option> 
+             <option value="Cuiab√°">Cuiab√°, MT</option> 
+             <option value="Jo√£oPessoa">Jo√£o Pessoa, PB</option>
+             <option value="Macei√≥">Macei√≥, AL</option> 
              <option value="Recife">Recife, PE</option> 
              <option value="RioBranco">Rio Branco, AC</option> 
              <option value="RioJaneiro">Rio de Janeiro, RJ</option> 
-             <option value="S„o Paulo">S„o Paulo, SP</option> 
+             <option value="S√£o Paulo">S√£o Paulo, SP</option> 
             </select></p> 
             <p><input class="texto" type="submit" value="Cadastrar cliente"></p> 
             <input type='hidden' name='btn_cadastrar_01' value='1'> 

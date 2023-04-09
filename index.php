@@ -1,13 +1,11 @@
- 
-
 <?php
 
     require_once "_php/conexao00.php";
 
-    //seleçãoe conexão  do banco de dados 
+    //seleï¿½ï¿½oe conexï¿½o  do banco de dados 
     $con = conexaoLogin();
 
-    // coleta o IP do usuário
+    // coleta o IP do usuï¿½rio
     $before_ip = $_SERVER['REMOTE_ADDR'];
 
    
@@ -34,11 +32,11 @@
 
                 if(!isset($_SESSION)){
                 
-                //cria sessão
+                //cria sessï¿½o
                     session_start();
                 } 
                                
-                // atribui usuário id_usuario à sessão
+                // atribui usuï¿½rio id_usuario ï¿½ sessï¿½o
                 
                 $_SESSION['id_session'] = $usuario['id_usuario'];
                 $_SESSION['nome_session'] = $usuario['nome_usuario'];
