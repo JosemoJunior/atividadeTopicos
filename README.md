@@ -19,9 +19,10 @@ Para iniciar:
 
 1) Criar a pasta desafio_php no localhost do Apache;
 2) Colocar os arquivos nesta pasta;
-3) Criar dois bancos de dados no PhPAdmin:
+3) Criar dois bancos de dados no PhPAdmin com os seguintes nomes:
 
 samuca
+
 login
 
 Obs: suário e senha padão do PhPAdmin: root e ""
