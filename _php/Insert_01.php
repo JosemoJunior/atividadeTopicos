@@ -33,7 +33,7 @@
 
     require_once "conexao01.php";
 
-// Recebe os dados do formulário com a variável $_POST 
+// Recebe os dados do formulï¿½rio com a variï¿½vel $_POST 
 $nome = $_POST['nome']; 
 $endereco = $_POST['endereco']; 
 $sexo = $_POST['sexo']; 
@@ -41,7 +41,7 @@ $faixa = $_POST['faixa'];
 $cidade = $_POST['cidade']; 
  
   
-  //conexÃ£o e seleção do banco de dados 
+  //conexÃ£o e seleï¿½ï¿½o do banco de dados 
   $con = novaConexao();
 
    
@@ -57,8 +57,8 @@ cidade) VALUES ('$nome','$endereco','$sexo','$faixa','$cidade')";
         }else{ 
           echo"Erro"; 
     } 
-//Exibe os dados na página de resposta: RespForm1.php 
-echo utf8_encode("Os dados recebidos do formulário são: <p>"); 
+//Exibe os dados na pï¿½gina de resposta: RespForm1.php 
+echo mb_convert_encoding("Os dados recebidos do formulÃ¡rio sÃ£o: <p>", "UTF-8"); 
 
 
 
@@ -70,7 +70,7 @@ echo (    "
   <td width = '300'>$nome</td> 
   </tr> 
   <tr> 
-  <td width = '100'>Endereço :<td>
+  <td width = '100'>EndereÃ§o :<td>
   <td width = '300'>$endereco</td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ echo (    "
   <td width = '300'>$sexo</td> 
   </tr> 
   <tr> 
-  <td width = '100'>Faixa etária :<td> 
+  <td width = '100'>Faixa etÃ¡ria :<td> 
   <td width = '300'>$faixa</td> 
   </tr> 
   <tr> 
