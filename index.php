@@ -83,45 +83,41 @@
     <div class="divisao">
         <h1 class="titulo"> LOGIN</h1>
     <form action="" method="POST">
-        <p>
-            <label class="texto"> E-mail </label>
-            <input class="input" type="text" name="email_usuario" id="email_usuario">
-            </p>
-        <p>
-            <label class="texto"> Senha </label>
-            <input class="input" type="password" name="senha_usuario" id="senha_usuario">
-            </p>
-        <p>
-            <button class="btn btn-three" type="submit" > Entrar </button>
-        </p>
+
+        <p><label class="texto"> E-mail </label></p>
+        <p><input class="input" type="text" name="email_usuario" id="email_usuario"></p>
+        
+        <p><label class="texto"> Senha </label></p>
+        
+        <div style="display: flex; align-items: center;">
+            <p><input class="input" type="password" name="senha_usuario" id="senha_usuario" 
+                      style="flex: 1; margin-right: 20px;"></p>
+            
+            <p><button class="btn btn-three" type="submit" > Entrar </button></p>
+        </div>
                 
     </form>
     <br>
     <br>
-   
-   
-   
     <h1 class="titulo"> Primeiro acesso</h1>
 
     <form action="_php/Insert_usuario.php" method="POST">
         
-        <p>
-            <label class="texto"> Nome </label>
-            <input class="input" type="text" name="nome_cadastro" id="nome_cadastro">
-            </p>
-        
-        <p>
-            <label class="texto"> E-mail </label>
-            <input class="input" type="text" name="email_cadastro" id="email_cadastro">
-            </p>
-        <p>
-            <label class="texto"> Senha </label>
-            <input class="input" type="password" name="senha_cadastro" id="senha_cadastro">
-            </p>
-        <p>
-            <button class="btn btn-three" type="submit" > Cadastrar </button>
-            <input type='hidden' name='btn_cadastrar_user' value='1'> 
-        </p>
+        <p><label class="texto" > Nome </label></p>
+        <p><input class="input" type="text" name="nome_cadastro" id="nome_cadastro"></p>
+
+        <p><label class="texto"> E-mail </label></p>
+        <p><input class="input" type="text" name="email_cadastro" id="email_cadastro"></p>
+
+        <p><label class="texto"> Senha </label></p>
+
+        <div style="display: flex; align-items: center;">
+            <p><input class="input" type="password" name="senha_cadastro" id="senha_cadastro"
+                      style="flex: 1; margin-right: 20px;"></p>
+            
+            <p><button class="btn btn-three" type="submit" > Cadastrar </button></p>
+            <p><input type='hidden' name='btn_cadastrar_user' value='1'></p>
+        </div>
                 
     </form>
 
